@@ -38,7 +38,9 @@ public class BrowserUtils {
     }
 
     public static void waitForElement(WebElement element){
+
         wait.until(ExpectedConditions.visibilityOf(element));
+
     }
 
     /**

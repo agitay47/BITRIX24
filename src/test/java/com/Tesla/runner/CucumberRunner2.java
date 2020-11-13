@@ -10,12 +10,12 @@ import org.junit.runner.RunWith;
         plugin = {//"pretty", "json:target/JSONReports/report.json",
 //                "junit:target/JUnitReports/report.xml",
 //                "html:target/HtmlReports",
-//                "rerun:target/rerun.txt",
-//        "html:target/cucumber-report.html"
+                "rerun:target/rerun.txt",
+                "html:target/cucumber-report.html",
                 "json:target/cucumber2.json"},
         features = "src/test/resources/features",
         glue = "com/Tesla/step_definitions",
-        dryRun =false,
+        dryRun = false,
         tags = "@login"
         //  publish = true
 

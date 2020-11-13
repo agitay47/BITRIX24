@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
 
-        features = "src/test/resources/features",//@target/rerun.txt
+        features = "src/test/resources/features/Login.feature:20",//@target/rerun.txt
         glue = "com/Tesla/step_definitions"
 
 
